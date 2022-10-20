@@ -1,0 +1,44 @@
+/* ? ----- Cuenta Regresiva ----- */
+#cuenta {
+	display: flex;
+	justify-content: center;
+}
+
+.simply-section {
+	background: rgba(179, 223, 240, 0.548);
+	width: 100px;
+	height: 100px;
+	margin: 0 20px;
+	border-radius: 5px;
+	border: solid rgb(149, 216, 243);
+	color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.simply-amount {
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.simply-word {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+	
+	.simply-section{
+		width: 60px;
+		height: 60px;
+		margin: 0 5px;
+	}
+	.simply-amount{
+		font-size: 14px;
+	}
+	.simply-word{
+		font-size: 12px;
+	}
+}

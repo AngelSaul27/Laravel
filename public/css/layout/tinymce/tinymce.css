@@ -1,0 +1,18 @@
+.tox-editor-header{
+  color: #fff !important;
+  border-bottom: 1px solid #82a3c9c7 !important;
+  padding: 0 !important;
+}
+.tox-tinymce{
+  border: 1px !important;
+}
+.tox-statusbar__branding{
+  display: none
+}
+.tox-menubar,.tox-toolbar__primary,.tox-toolbar-overlord,.tox-statusbar{
+  background-color: #6091c9c7 !important;
+  border: none !important
+}
+.tox.tox-tinymce{
+  height: 300px
+}

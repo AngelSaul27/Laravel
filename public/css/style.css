@@ -1,0 +1,77 @@
+*::-webkit-scrollbar{
+   -webkit-appearance: none !important;
+}
+*::-webkit-scrollbar:vertical{
+   width: 8px !important;
+}
+*::-webkit-scrollbar-button:increment,
+.contenedor::-webkit-scrollbar-button {
+   display: none !important;
+}
+*::-webkit-scrollbar:horizontal {
+   height: 2px !important;
+}
+*::-webkit-scrollbar-thumb {
+   background-color: #40556bd4 !important;
+}
+.hidenYscrollbar::-webkit-scrollbar:vertical{
+   width: 0px !important;
+}
+
+.hidenXscrollbar::-webkit-scrollbar:horizontal{
+   height: 0px !important;
+}
+.widthXscrollbar::-webkit-scrollbar:horizontal{
+   height: 8px !important
+}
+.widthYscrollbar::-webkit-scrollbar:vertical{
+   width: 5px !important
+}
+.active-tab{
+   border-bottom: #4965ab solid 2px !important;
+   color: #4965ab !important;
+}
+.drop_mesagge-inset{
+    inset: 0px auto auto -10px !important;
+}
+.scrollYmax5::-webkit-scrollbar:vertical{
+    width: 5px !important
+}
+.content_hovers:hover .content_opacitys{
+    opacity: 1
+}
+.bg-responsive-center{
+    background-size: cover !important;
+    background-position: center;
+    background-repeat: no-repeat !important;
+}
+.bg-responsive-bottom{
+    background-size: cover !important;
+    background-position: bottom;
+    background-repeat: no-repeat !important;
+}
+.content-transition{
+    transition: all 0.3s ease-in-out;
+    animation-duration: 300ms;
+}
+.stripe-shadow{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.tooltip_code{
+    position: absolute;
+    inset: auto auto 0px 0px;
+    margin: 0px;
+    transform: translate(-10px, -20px);
+}
+.pickers-colors-selected{
+    border: 2px solid #4a74de !important;
+}
+@media screen and (max-width:1026px){
+    .tooltip_code{
+        transform: translate(-30px, -20px);
+    }
+}
+.splide__slide div img {
+    width: 100%;
+    height: auto;
+  }

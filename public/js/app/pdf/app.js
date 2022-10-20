@@ -1,0 +1,1 @@
+function FixViewPdf(){fixed_panel('body', "overflow-hidden");changueIconBtn("fixed_button");} function block_document(){fixed_panel('#container_document', "overflow-hidden"); fixed_panel('#container_document', "overflow-y-auto");}
